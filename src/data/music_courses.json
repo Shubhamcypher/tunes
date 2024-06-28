@@ -1,0 +1,65 @@
+{
+    "courses":[
+        {
+          "id": "1",
+          "title": "Beginner Piano",
+          "description": "Learn the basics of playing the piano, including fundamental techniques and simple songs.",
+          "slug": "beginner-piano",
+          "price": 100,
+          "instructor": "John Doe",
+          "isFeatured": true,
+          "image": "https://images6.alphacoders.com/391/391336.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Advanced Guitar",
+          "description": "Master the guitar with advanced techniques and music theory for intermediate players.",
+          "slug": "advanced-guitar",
+          "price": 150,
+          "instructor": "Jane Smith",
+          "isFeatured": true,
+          "image": "http://images5.fanpop.com/image/photos/27300000/Guitar-guitar-27380674-2560-1600.jpg"
+        },
+        {
+          "id": "3",
+          "title": "Vocal Training",
+          "description": "Explore the world of vocal training, focusing on pitch, tone, and vocal health.",
+          "slug": "vocal-training",
+          "price": 120,
+          "instructor": "Emily Johnson",
+          "isFeatured": true,
+          "image": "https://thesingerscorner.com/wp-content/uploads/2014/03/bigstock-220479238.jpg"
+        },
+        {
+          "id": "4",
+          "title": "Jazz Saxophone",
+          "description": "Delve into jazz saxophone, covering improvisation, scales, and famous jazz standards.",
+          "slug": "jazz-saxophone",
+          "price": 130,
+          "instructor": "Michael Brown",
+          "isFeatured": true,
+          "image": "https://oo-prod.s3.amazonaws.com/public/artworks/2021/05/06/928f9540aae1b291/artworkWebOptimize/banner.jpg"
+        },
+        {
+          "id": "5",
+          "title": "Drumming 101",
+          "description": "Learn to play the drums with lessons on rhythm, technique, and various drumming styles.",
+          "slug": "drumming-101",
+          "price": 110,
+          "instructor": "Chris Davis",
+          "isFeatured": true,
+          "image": "https://drummingreview.com/wp-content/uploads/2017/12/Best-Electronic-Drum-Set-1.jpg"
+        },
+        {
+          "id": "6",
+          "title": "Music Theory Basics",
+          "description": "Understand the fundamentals of music theory, including notation, harmony, and composition.",
+          "slug": "music-theory-basics",
+          "price": 90,
+          "instructor": "Sarah Wilson",
+          "isFeatured": true,
+          "image": "https://tsdca.org/app/uploads/jr3NP7i-1024x640.jpg"
+        }
+      ]
+      
+}
