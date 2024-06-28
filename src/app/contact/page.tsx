@@ -14,7 +14,7 @@ function page() {
           <div className="text-center pb-6">
             <h1 className="text-3xl text-teal-700 font-bold">Contact Us!</h1>
             <p className="text-gray-300">
-              Fill up the form below to send us a message.
+              Fill up the form below to send us  message.
             </p>
           </div>
 
