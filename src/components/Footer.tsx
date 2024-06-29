@@ -9,22 +9,24 @@ function Footer() {
         <div className="flex flex-wrap justify-between">
           
           {/* Company Info */}
-          <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 px-8">
+          <div className="w-full sm:w-1/2 lg:w-1/5 mb-8 ">
             <h5 className="text-white text-lg font-bold mb-4">About Us</h5>
-            <p className="text-gray-400">
+            <p className="text-gray-400 ">
               We are a leading music academy providing comprehensive music education and training to students of all ages and levels.
             </p>
           </div>
           
           {/* Quick Links */}
-          <div className="w-full sm:w-1/2 lg:w-1/4 mb-8">
-            <h5 className="text-white text-lg font-bold mb-4">Quick Links</h5>
-            <ul className="text-gray-400 space-y-2">
-              <li><Link href="/" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Home</Link></li>
-              <li><Link href="/courses" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Courses</Link></li>
-              <li><Link href="#" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Events</Link></li>
-              <li><Link href="/contact" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Contact</Link></li>
-            </ul>
+          <div className='flex items-center justify-center'>
+            <div className="w-full sm:w-1/2 lg:w-1/4 mb-8">
+              <h5 className="text-white text-lg font-bold mb-4">Quick Links</h5>
+              <ul className="text-gray-400 space-y-2">
+                <li><Link href="/" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Home</Link></li>
+                <li><Link href="/courses" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Courses</Link></li>
+                <li><Link href="#" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Events</Link></li>
+                <li><Link href="/contact" className="transition-all duration-200 hover:font-bold hover:text-orange-500">Contact</Link></li>
+              </ul>
+            </div>
           </div>
 
           {/* Social Media */}

@@ -5,15 +5,18 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
 import { Button } from "@/components/ui/moving-border";
+import { Meteors } from "@/components/ui/meteors";
 
 
 import CouruseData from '@/data/music_courses.json'
+import Footer from "@/components/Footer";
 
 
 
 function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
+      <Meteors number={50} />
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">All courses ({CouruseData.courses.length})</h1>
         {CouruseData.courses.map((course)=>(
             <CardContainer key={course.id} className="inter-var">
@@ -41,6 +44,7 @@ function page() {
                 />
               </CardItem>
               <div className="flex justify-between items-center mt-20 rounded-[6px]">
+              <Meteors number={50} />
                 <CardItem
                   translateZ={20}
                   as={Link}
@@ -59,10 +63,12 @@ function page() {
                   borderRadius="1.75rem"
                   className="bg-white dark:bg-orange-600 text-black dark:text-white border-neutral-200 dark:border-slate-800"
                   >Explore Courses</Button>
+                  
               </div>
             </CardBody>
           </CardContainer>
         ))}
+        <Footer/>
     </div>
   )
 }
