@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 
 function Page() {
   return (
-    <div className="min-h-screen bg-black-800 py-6 flex flex-col justify-center sm:py-12 fixed">
+    <div className="min-h-screen bg-black-800 py-6 flex flex-col justify-center sm:py-12 absolute">
        <Meteors number={50} />
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">
         <div
